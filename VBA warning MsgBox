@@ -1,0 +1,10 @@
+' VBA script to warn user if they want to proceed
+Sub ()
+  If MsgBox("Are you sure that you want to clear order sheet?", _
+          vbYesNo + vbQuestion) = vbNo then
+      Exit Sub
+  End If
+  
+  ' VBA script goes here if user answers yes
+  
+End Sub
